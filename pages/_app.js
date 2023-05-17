@@ -10,12 +10,6 @@ if (typeof window !== "undefined") {
   require("bootstrap/dist/js/bootstrap");
 }
 
-function MyApp ({ Component, pageProps }) {
-  useEffect(() => {
-    hotjar.initialize(0123456, 1)
-  }, [])
-return <Component {...pageProps} />
-}
 export default function App({ Component, pageProps }) {
   useEffect(() => {
     Aos.init({
@@ -33,4 +27,3 @@ export default function App({ Component, pageProps }) {
     </div>
   );
 }
-
