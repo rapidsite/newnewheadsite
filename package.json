@@ -8,7 +8,6 @@
     "start": "next start",
     "lint": "next lint"
   },
-  "type": "module",
   "dependencies": {
     "@popperjs/core": "^2.11.6",
     "@supabase/supabase-js": "^2.22.0",
@@ -23,7 +22,7 @@
     "react-circular-progressbar": "^2.1.0",
     "react-countup": "^6.4.2",
     "react-dom": "18.2.0",
-    "react-hotjar": "^6.1.0",
+    "react-hotjar": "^5.4.1",
     "react-intersection-observer": "^9.4.3",
     "react-masonry-css": "^1.0.16",
     "react-modal-video": "^2.0.0",
