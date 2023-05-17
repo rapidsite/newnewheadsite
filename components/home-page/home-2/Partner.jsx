@@ -26,7 +26,6 @@ const Partner = () => {
         breakpoint: 576,
         settings: {
           slidesToShow: 2,
-          dots: true,
         },
       },
     ],
