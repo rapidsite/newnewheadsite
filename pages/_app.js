@@ -4,7 +4,6 @@ import "aos/dist/aos.css";
 import "../styles/index.scss";
 import ScrollToTop from "../components/common/ScrollTop";
 import { hotjar } from 'react-hotjar'
-import { useEffect } from 'react'
 
 if (typeof window !== "undefined") {
   require("bootstrap/dist/js/bootstrap");
